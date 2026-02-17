@@ -33,10 +33,10 @@ The system processes image frames and highlights edges using gradient-based filt
 ## Results
 
 ### Original Frame
-![Original](docs/original.png)
+![Original](docs/Gray.jpeg)
 
 ### Edge Detected Output
-![Sobel Output](docs/output.png)
+![Sobel Output](docs/Edge_Detected_Image.jpeg)
 
 ## Author
 H.A.J.D Rathnasiri
