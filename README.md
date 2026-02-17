@@ -30,6 +30,14 @@ The system processes image frames and highlights edges using gradient-based filt
 4. Run synthesis → Implementation → Generate Bitstream
 5. Program FPGA
 
+## Results
+
+### Original Frame
+![Original](docs/original.png)
+
+### Edge Detected Output
+![Sobel Output](docs/output.png)
+
 ## Author
 H.A.J.D Rathnasiri
 EE587 University of Peradeniya/ FPGA Image Processing
