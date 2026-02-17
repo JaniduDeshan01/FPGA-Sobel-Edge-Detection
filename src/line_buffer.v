@@ -5,11 +5,11 @@
 
 module line_buffer (
     input  wire       clk,
-    input  wire       we,       // write enable
-    input  wire [8:0] waddr,    // write address (0..319)
-    input  wire [7:0] din,      // write data
-    input  wire [8:0] raddr,    // read address (0..319)
-    output reg  [7:0] dout      // read data (registered, 1-cycle latency)
+    input  wire       we,       
+    input  wire [8:0] waddr,    
+    input  wire [7:0] din,      
+    input  wire [8:0] raddr,    
+    output reg  [7:0] dout      
 );
     reg [7:0] buf_mem [0:319];
 
@@ -18,5 +18,6 @@ module line_buffer (
             buf_mem[waddr] <= din;
         dout <= buf_mem[raddr];
     end
+
 
 endmodule
