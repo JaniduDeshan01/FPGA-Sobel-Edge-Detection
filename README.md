@@ -35,7 +35,7 @@ The system processes image frames and highlights edges using gradient-based filt
 ### Original Frame
 ![Original](docs/Gray_Image.jpeg)
 
-### Edge Detected Output
+### Edge Detected Output (VGA out of the Board)
 ![Sobel Output](docs/Edge_Detected_Image.jpeg)
 
 ## Author
